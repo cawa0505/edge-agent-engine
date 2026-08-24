@@ -1,2 +1,6 @@
 # StateMachineMcp (local state)
 .opencode/
+# Code Relay (local state)
+relay.json
+RESUME.md
+next_step.md
