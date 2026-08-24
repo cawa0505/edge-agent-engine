@@ -13,6 +13,15 @@
 - Keep Base Model, Adapter, training job, checkpoint, and system guard boundaries explicit; a model abstraction must not force inference-only models to implement backward/optimizer behavior.
 - Treat battery, temperature, memory, and background-execution thresholds as device-specific policy values, not universal constants.
 
+## OpenSpec Workflow
+
+- Specs live in `openspec/specs/<capability>/spec.md` (main specs); active changes in `openspec/changes/<name>/`; archived changes in `openspec/changes/archive/YYYY-MM-DD-<name>/`.
+- Lifecycle: create change (proposal → specs/design → tasks) → validate → implement tasks → `openspec archive <name> -y` (auto-syncs delta specs into main specs and moves the change to archive).
+- Validate with `openspec validate <name> --type change --strict --no-interactive` (not `--change`); `openspec status` takes no arguments; `openspec list` shows active changes.
+- Delta spec format: every `ADDED Requirements` section needs a `### Requirement:` heading, each containing at least one `#### Scenario` block — strict validation fails otherwise.
+- Language convention: `proposal.md` in Traditional Chinese; `design.md`, `tasks.md`, and specs in English. Unverified claims stay `[待驗證]`, undecided items stay `[待討論]`.
+- Do not hand-edit `openspec/specs/` directly; changes flow through a change's delta specs and the archive sync.
+
 ## Verification
 
 - Any implementation must leave a runnable focused check for non-trivial logic and record reproducible RAM, latency, training-time, power, temperature, checkpoint, and quality measurements where applicable.
