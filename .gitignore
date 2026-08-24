@@ -4,3 +4,6 @@
 relay.json
 RESUME.md
 next_step.md
+
+# Rust build artifacts
+/target/
