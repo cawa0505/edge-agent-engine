@@ -58,7 +58,7 @@
 - `[待討論]` 第一個模型：Needle 26M、SmolLM 135M 或其他已驗證候選。
 - `[待討論]` Tensor framework：Burn 或 Candle。
 - `[待討論]` 第一台 Android 測試裝置與可接受資源上限。
-- `[待討論]` Community 授權，不預設 AGPLv3。
+- 已定案 Community 授權採 Apache-2.0。
 - `[待討論]` 開源核心與商業擴充的邊界。
 
 ## 暫不執行

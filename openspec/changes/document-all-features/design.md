@@ -53,6 +53,6 @@ EdgeAgent Engine is currently in Discovery phase (Phase 0) with no executable co
 - [待討論] First model selection (Needle 26M, SmolLM 135M)
 - [待討論] Tensor framework (Burn vs Candle)
 - [待討論] Android binding approach (UniFFI/JNI)
-- [待討論] Community license terms
+- 已定案 Community license 採 Apache-2.0
 
 This design artifact focuses solely on documenting capabilities without pre-committing technical choices.

@@ -249,14 +249,9 @@ Applications / Local Agents
 
 ### 10.1 Open-core／雙重授權
 
-候選方式：Community 版本採 copyleft 授權，企業取得商業授權。但採用 AGPLv3 前需評估：
+Community 版本採 **Apache-2.0** 授權，企業取得商業授權。Apache-2.0 提供專利保護且相容 Rust／Android 生態，不因 copyleft 義務降低企業導入意願。
 
-- Android SDK 的連結與散布義務。
-- 企業客戶是否會直接放棄導入。
-- 第三方模型、框架與權重授權是否相容。
-- 開源核心與閉源擴充的技術邊界。
-
-`[待討論]` Community 版本是否使用 AGPLv3、Apache-2.0 或其他授權。
+開源核心與閉源擴充的技術邊界需在 Phase 0 後具體劃定。
 
 ### 10.2 B2B SDK
 
