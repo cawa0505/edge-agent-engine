@@ -1,0 +1,16 @@
+[workspace]
+resolver = "2"
+members = [
+    "crates/edge-agent-core",
+    "crates/edge-agent-cli",
+    "crates/edge-agent-jni",
+]
+
+[workspace.dependencies]
+edge-agent-core = { path = "crates/edge-agent-core" }
+edge-agent-jni = { path = "crates/edge-agent-jni" }
+
+[workspace.package]
+version = "0.1.0"
+edition = "2021"
+license = "MIT OR Apache-2.0"

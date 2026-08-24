@@ -1,0 +1,12 @@
+[package]
+name = "edge-agent-jni"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[lib]
+name = "edge_agent_jni"
+crate-type = ["cdylib", "rlib"]
+
+[dependencies]
+edge-agent-core = { workspace = true }

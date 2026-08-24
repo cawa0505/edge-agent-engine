@@ -1,6 +1,6 @@
 ## 1. Workspace Skeleton
 
-- [ ] 1.1 Create the Cargo workspace with `edge-agent-core`, `edge-agent-cli`, `edge-agent-jni` crates; verify `cargo build` passes on a fresh clone and no tensor logic exists outside `edge-agent-core`
+- [x] 1.1 Create the Cargo workspace with `edge-agent-core`, `edge-agent-cli`, `edge-agent-jni` crates; verify `cargo build` passes on a fresh clone and no tensor logic exists outside `edge-agent-core`
 - [ ] 1.2 Verify Needle 26M weight/tokenizer conversion to Candle-loadable SafeTensors; record the conversion command, artifact checksum, architecture, tokenizer, and license in `docs/PHASE0_EVIDENCE.md`; if conversion is blocked, record it and stop — this rejects the model candidate, not the task
 
 ## 2. Dev-Machine Forward
