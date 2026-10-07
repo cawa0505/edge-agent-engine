@@ -7,3 +7,4 @@ next_step.md
 
 # Rust build artifacts
 /target/
+.relay/
